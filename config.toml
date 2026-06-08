@@ -22,6 +22,7 @@ patcher-args = """\
   """
 
 [Music-Morphe]
+enabled = false
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
