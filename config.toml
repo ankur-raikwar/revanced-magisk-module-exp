@@ -18,7 +18,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 patcher-args = """\
-  -Ochange-header:custom=$GITHUB_WORKSPACE/custom_header \
+  -Ochange-header:custom=$GITHUB_WORKSPACE/custom_header/youtube \
   """
 
 [Music-Morphe]
@@ -32,6 +32,3 @@ arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-patcher-args = """\
-  -Ochange-header:custom=$GITHUB_WORKSPACE/custom_header \
-  """
